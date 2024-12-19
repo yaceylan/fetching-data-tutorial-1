@@ -1,0 +1,45 @@
+#header-example {
+    color: red;
+}
+
+.list-element {
+    color: blue;
+}
+
+#first-list-element {
+    font-size: small;
+}
+
+#second-list-element {
+    font-size: medium;
+    text-decoration: line-through;
+}
+
+#third-list-element {
+    font-size: large;
+}
+
+.list {
+    border: 1px solid rgba(0, 0, 0, 1);
+    list-style: none;
+}
+
+/* .list-button-update {
+    background-color: gray;
+} */
+ 
+.list button {
+    background-color: red;
+}
+
+.list input[type="button"] {
+    background-color: aqua;
+}
+
+
+
+.list-item {
+    display: flex;
+    align-items: center;
+    /* color: blue; */
+}
