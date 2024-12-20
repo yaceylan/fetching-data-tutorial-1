@@ -1,45 +1,38 @@
-#header-example {
-    color: red;
+body {
+    background-color: beige;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* display: flex; */
 }
 
-.list-element {
-    color: blue;
+#gallery-header {
+    color: brown;
+    /* position: absolute;
+    right: 10px;
+    top: 10px; */
+
 }
 
-#first-list-element {
-    font-size: small;
+.header {
+    text-transform: uppercase;
+    
 }
 
-#second-list-element {
-    font-size: medium;
-    text-decoration: line-through;
+#user-container {
+    /* display: flex; */
+    border: 1px solid black;
+    /* position: absolute;
+    right: 30px;
+    top: 30px; */
 }
 
-#third-list-element {
-    font-size: large;
+#images-container {
+    border: 1px solid black;
+    /* height: 20px;
+    width: auto;
+    background-color: aquamarine; */
 }
 
-.list {
-    border: 1px solid rgba(0, 0, 0, 1);
-    list-style: none;
-}
-
-/* .list-button-update {
-    background-color: gray;
-} */
- 
-.list button {
-    background-color: red;
-}
-
-.list input[type="button"] {
-    background-color: aqua;
-}
-
-
-
-.list-item {
-    display: flex;
-    align-items: center;
-    /* color: blue; */
+#header-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }

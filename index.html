@@ -3,32 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js" defer></script>
+    <title>Images-Gallery</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <h1 id="header-example" class="header-example-class">Einkaufsliste</h1>
-    <h3>Das sind die Lebensmittel, die ich einkaufen möchte.</h3>
-    <div><input type="text" id="input-item">
-    <button id="add-item-button">Hinzufügen</button></div>
-    <ul class="list" id="list">
-        <!-- <li>Toilettenpapier</li>
-        <li>Banane</li> -->
-        <!-- <li class="list-element" id="first-list-element">1
-            <input type="checkbox" name="checkbox" id="checkbox">
-            <input type="button" class="list-button-update" value="update" id="updateButton">
-        </li>
-        <li class="list-element" id="second-list-element">2
-            <input type="checkbox" name="checkbox" id="checkbox">
-            <input type="button" class="list-button-update" value="update" id="updateButton">
-        </li>
-        <li class="list-element" id="third-list-element">3
-            <input type="checkbox" name="checkbox" id="checkbox">
-            <input type="button" class="list-button-update" value="update" id="updateButton">
-            <button>Test</button>
-        </li> -->
-    </ul>
-    <!-- <ol class="list" type="ol" name="secondlist"></ol> -->
+    <div id="header-container">
+    <div>
+    <h1 id="gallery-header" class="header">Gallery</h1>
+    <h3 id="gallery-subheader" class="header">This is a sample of images</h3>
+</div>
+    <div id="user-container">
+        <p>These users have uploaded an image</p>
+        <ul id="user-list">
+            <!-- <li>User 1, email.de</li>
+            <li>User 2, email.de</li>
+            <li>User 3, email.de</li> -->
+        </ul>
+    </div>
+</div>
+<button id="show-button">Show images</button>
+    <div id="images-container">
+        <ul id="image-list">
+            <!-- <li>Image</li>
+            <li>Image</li>
+            <li>Image</li> -->
+        </ul>
+    </div>
 </body>
 </html>
