@@ -24,6 +24,7 @@ async function fetchUserData(){
     }
 }
 
+
 // define async function to fetch image data
 async function fetchImageData() {
     try {
