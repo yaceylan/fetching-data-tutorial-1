@@ -62,4 +62,13 @@ function renderImages(){
     });
 }
 
+function renderTitle(){
+    title.forEach((title) => {
+        const titleItem = document.createElement('li');
+        titleItem.innerHTML = title.title;
+        titleList.appendChild(titleItem);
+
+    });
+}
+
 // showUsers();
